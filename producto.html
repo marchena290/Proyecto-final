@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de TechShop">
+    <title>TechShop</title>
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- estilos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+<body>
+    <!--Navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand"><span>Tech</span>Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false"
+                    aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-start">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navegacion-->
+
+    <!--mostrar producto seleccionado-->
+        <section id="product-detail" class="container my-4">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 d-flex justify-content-center mb-4">
+                    <img id="product-image" src="" alt="Product Image" class="img-fluid mx-auto d-block" style="max-height: 400px; width: auto;">
+                </div>
+                
+                <div class="col-sm-6 col-md-6">
+                    <h1 id="product-title" class="display-5 mb-3"></h1>
+                    <p id="product-description" class="lead mb-4"></p>
+                    <p id="product-price" class="fs-3 fw-bold mb-4"></p>
+
+                    <!--Seleccionar cantidad-->
+                    <div class="mb-4">
+                        <label for="quantitySelect" class="form-label">Cantidad:</label>
+                        <select id="quantitySelect" class="form-select" style="width: 100px;">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option> 
+                        </select>
+                    </div>
+
+                    <button id="buy-button" class="btn btn-custom btn-lg">Comprar</button>
+                </div>
+            </div>
+        </section>
+    <!--mostrar producto seleccionado-->
+
+    <!--footer-->
+    <footer class="bg-black p-3 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <h4 class="text-warning">Contacto</h4>
+                    <p class="text-white">Dirección: Avenida Central 456, Barrio Innovación, San José, Costa Rica, C.P. 10101</p>
+                    <p class="text-white">Teléfono: +506 8765 4321</p>
+                    <p class="text-white">contacto@techshop.cr</p>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="text-warning">Redes Sociales</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" class="btn btn-primary rounded-circle" style="border: none;"><i class="bi bi-facebook text-white"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank" class="btn btn-primary rounded-circle" style="background-color: #E4405F; border: none;"><i class="bi bi-instagram text-white"></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/" target="_blank" class="btn btn-info rounded-circle" style="border: none;"><i class="bi bi-twitter text-white"></i></a></li>
+                    </ul>
+                </div>
+            </div> 
+            
+        </div>
+    </footer>
+
+    <!--script js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
