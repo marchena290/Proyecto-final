@@ -1,108 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descripción de TechShop">
-    <title>TechShop</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Javier Marchena">
+    <meta name="description" content="Explora nuestra amplia gama de productos en TechShop. Encuentra lo último en tecnología, joyas y ropa, para todos los gustos." />
+    <meta name="keywords" content="techshop, productos, tecnología, joyas, ropa hombre, ropa mujer, tienda online" />
+    <title>Productos - TechShop</title>
     <!-- fuentes -->
-    <link rel="preload" href="./assets/img/placeholder.jpg" as="image">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preload" href="./assets/img/placeholder.jpg" as="image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- estilos -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
     <!-- Navegacion -->
-        <nav class="navbar navbar-expand-lg navbar-custom">
-            <div class="container">
-                <a href="./index.html" class="navbar-brand"><span>Tech</span>Shop</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false"
-                        aria-label="toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-start">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container">
+        <a href="./index.html" class="navbar-brand"><span>Tech</span>Shop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-start"
+          aria-controls="navbar-start"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-start">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- Navegacion -->
 
     <!-- Productos por categoria -->
-        <section id="product-catalog">
+    <section id="product-catalog">
+      <div id="productSection" class="container p-3">
+        <h2>Electronics</h2>
+        <div id="electronics" class="row p-4">
+          <div class="loading">Cargando productos...</div>
+        </div>
 
-            <div id="productSection" class="container p-3">
+        <h2>Jewelery</h2>
+        <div id="jewelery" class="row p-4">
+          <div class="loading">Cargando productos...</div>
+        </div>
 
-                <h2>Electronics</h2>
-                <div id="electronics" class="row p-4">
-                    <div class="loading">Cargando productos...</div>
-                </div>
+        <h2>Men's Clothing</h2>
+        <div id="men-clothing" class="row p-4">
+          <div class="loading">Cargando productos...</div>
+        </div>
 
-                <h2>Jewelery</h2>
-                <div id="jewelery" class="row p-4">
-                    <div class="loading">Cargando productos...</div>
-                </div>
-
-                <h2>Men's Clothing</h2>
-                <div id="men-clothing" class="row p-4">
-                    <div class="loading">Cargando productos...</div>
-                </div>
-
-                <h2>Women's Clothing</h2>
-                <div id="women-clothing" class="row p-4">
-                    <div class="loading">Cargando productos...</div>
-                </div>
-
-            </div>
-        </section>
+        <h2>Women's Clothing</h2>
+        <div id="women-clothing" class="row p-4">
+          <div class="loading">Cargando productos...</div>
+        </div>
+      </div>
+    </section>
     <!-- Productos por categoria -->
 
     <!-- footer -->
-        <footer class="bg-black p-3 text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <h4 class="text-warning">Contacto</h4>
-                        <p class="text-white">Dirección: Avenida Central 456, Barrio Innovación, San José, Costa Rica, C.P. 10101</p>
-                        <p class="text-white">Teléfono: +506 8765 4321</p>
-                        <p class="text-white">contacto@techshop.cr</p>
-                    </div>
+    <footer class="bg-black p-3 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <h4 class="text-warning">Contacto</h4>
+            <p class="text-white">
+              Dirección: Avenida Central 456, Barrio Innovación, San José, Costa
+              Rica, C.P. 10101
+            </p>
+            <p class="text-white">Teléfono: +506 8765 4321</p>
+            <p class="text-white">contacto@techshop.cr</p>
+          </div>
 
-                    <div class="col-md-6">
-                        <h4 class="text-warning">Redes Sociales</h4>
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" class="btn btn-primary rounded-circle" style="border: none;"><i class="bi bi-facebook text-white"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank" class="btn btn-primary rounded-circle" style="background-color: #E4405F; border: none;"><i class="bi bi-instagram text-white"></i></a></li>
-                            <li class="list-inline-item"><a href="https://twitter.com/" target="_blank" class="btn btn-info rounded-circle" style="border: none;"><i class="bi bi-twitter text-white"></i></a></li>
-                        </ul>
-                    </div>
-                </div> 
-                
-            </div>
-        </footer>
+          <div class="col-md-6">
+            <h4 class="text-warning">Redes Sociales</h4>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="btn btn-primary rounded-circle"
+                  style="border: none"
+                  ><i class="bi bi-facebook text-white"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="btn btn-primary rounded-circle"
+                  style="background-color: #e4405f; border: none"
+                  ><i class="bi bi-instagram text-white"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  class="btn btn-info rounded-circle"
+                  style="border: none"
+                  ><i class="bi bi-twitter text-white"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!--script js-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <script src="./assets/js/main.js"></script>
-</body>
+  </body>
 </html>

@@ -1,184 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descripción de TechShop">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Javier Marchena">
+    <meta name="description" content="En TechShop, descubre la última tecnología con una amplia gama de dispositivos electrónicos y más. Compra online con confianza y facilidad." />
+    <meta name="keywords" content="techshop, tecnología, ropa, tienda online, electrónica" />
     <title>TechShop</title>
     <!-- fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- estilos -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
     <!--Navegacion-->
     <nav class="navbar navbar-expand-lg navbar-custom">
-        <div class="container">
-            <a href="./index.html" class="navbar-brand"><span>Tech</span>Shop</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false"
-                    aria-label="toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-start">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a href="./index.html" class="navbar-brand"><span>Tech</span>Shop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-start"
+          aria-controls="navbar-start"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-start">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!--Navegacion-->
 
     <!--Carosuel-->
     <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators"></div>
-        <div class="carousel-inner"></div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE1" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselE1" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+      <div class="carousel-indicators"></div>
+      <div class="carousel-inner"></div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselE1"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselE1"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <!--Carosuel-->
 
     <!-- Categorías -->
-        <section class="categories">
-                <div class="container">
-                    <div id="categoriesSection" class="row">
-                        <!-- Aquí se cargarán las categorías -->
-                    </div>
-                </div>
-        </section>
+    <section class="categories">
+      <div class="container">
+        <div id="categoriesSection" class="row">
+          <!-- Aquí se cargarán las categorías -->
+        </div>
+      </div>
+    </section>
     <!-- Categorías -->
 
     <section class="py-2 py-md-3 py-lg-4">
-        <div><h2 class="text-center mb-4">
-            Testimonios</h2>
-        </div>
+      <div><h2 class="text-center mb-4">Testimonios</h2></div>
 
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4 mb-5 mb-md-0">
-                     <div class="d-flex justify-content-center mb-4">
-                        <img src="assets/img/cliente-1.webp" class="rounded-circle shadow-1-strong" width="150" height="150" alt="imagen-sobre-cliente">
-                    </div>
-                    <h5 class="mb-3">Juan Pérez</h5>
-                    <p class="px-xl-3">
-                        "Desde que descubrí TechShop, no he vuelto a comprar tecnología en otro
-                        lugar. La calidad de sus productos es excepcional y siempre encuentro lo último en gadgets.
-                        Además, su servicio al cliente es impecable. Recientemente, compré una laptop ProTech
-                        2024 y no podría estar más satisfecho. El equipo me ayudó a elegir la opción perfecta para
-                        mis necesidades y la entrega fue rápida y sin problemas."
-                    </p>
-                    <ul class="list-unstyled d-flex justify-content-center mb-0">
-                        <li class="fas fa-star fa-sm text-warning"></li>
-                        <li class="fas fa-star fa-sm text-warning"></li>
-                        <li class="fas fa-star fa-sm text-warning"></li>
-                        <li class="fas fa-star fa-sm text-warning"></li>
-                        <li class="fas fa-star fa-sm text-warning"></li>
-                    </ul>
-                </div>
-
-
-                <div class="col-md-4 mb-5 mb-md-0">
-                    <div class="d-flex justify-content-center mb-4">
-                       <img src="assets/img/cliente-2.webp" class="rounded-circle shadow-1-strong" width="150" height="150" alt="imagen-sobre-cliente">
-                   </div>
-                   <h5 class="mb-3">Laura Fernández</h5>
-                   <p class="px-xl-3">
-                        "TechShop no solo es mi tienda de confianza para productos tecnológicos,
-                        sino también para ropa y accesorios de moda. Recientemente, compré una chaqueta y unos
-                        auriculares inalámbricos que combinan perfectamente con mi estilo. La calidad de las
-                        prendas es excelente y los diseños son modernos y elegantes. Además, me encanta cómo
-                        integran la tecnología con la moda. Los accesorios, como los relojes inteligentes y los
-                        bolsos con cargadores incorporados, son tanto funcionales como estilizados. La atención al
-                        cliente fue excepcional, ayudándome a encontrar justo lo que necesitaba. TechShop
-                        realmente entiende de moda y tecnología, haciendo que la experiencia de compra sea única
-                        y satisfactoria."
-                   </p>
-                   <ul class="list-unstyled d-flex justify-content-center mb-0">
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                   </ul>
-                </div>
-
-                <div class="col-md-4 mb-5 mb-md-0">
-                    <div class="d-flex justify-content-center mb-4">
-                       <img src="assets/img/cliente-3.webp" class="rounded-circle shadow-1-strong" width="150" height="150" alt="imagen-sobre-cliente">
-                   </div>
-                   <h5 class="mb-3">Carlos López</h5>
-                   <p class="px-xl-3">
-                        "Lo que más valoro de TechShop es su compromiso con el cliente. Hace unos
-                        meses compré una tablet para mi trabajo y tuve algunas dudas sobre su configuración. El
-                        equipo de soporte técnico fue muy amable y eficiente, resolviendo todas mis inquietudes en
-                        poco tiempo. La tablet ha sido una excelente herramienta para mi productividad diaria. Sin
-                        duda, TechShop es la mejor opción para quienes buscamos calidad y buen servicio."
-                   </p>
-                   <ul class="list-unstyled d-flex justify-content-center mb-0">
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                       <li class="fas fa-star fa-sm text-warning"></li>
-                   </ul>
-                </div>
-
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img
+                src="assets/img/cliente-1.webp"
+                class="rounded-circle shadow-1-strong"
+                width="150"
+                height="150"
+                alt="imagen-sobre-cliente"
+              />
             </div>
+            <h5 class="mb-3">Juan Pérez</h5>
+            <p class="px-xl-3">
+              "Desde que descubrí TechShop, no he vuelto a comprar tecnología en
+              otro lugar. La calidad de sus productos es excepcional y siempre
+              encuentro lo último en gadgets. Además, su servicio al cliente es
+              impecable. Recientemente, compré una laptop ProTech 2024 y no
+              podría estar más satisfecho. El equipo me ayudó a elegir la opción
+              perfecta para mis necesidades y la entrega fue rápida y sin
+              problemas."
+            </p>
+          </div>
+
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img
+                src="assets/img/cliente-2.webp"
+                class="rounded-circle shadow-1-strong"
+                width="150"
+                height="150"
+                alt="imagen-sobre-cliente"
+              />
+            </div>
+            <h5 class="mb-3">Laura Fernández</h5>
+            <p class="px-xl-3">
+              "TechShop no solo es mi tienda de confianza para productos
+              tecnológicos, sino también para ropa y accesorios de moda.
+              Recientemente, compré una chaqueta y unos auriculares inalámbricos
+              que combinan perfectamente con mi estilo. La calidad de las
+              prendas es excelente y los diseños son modernos y elegantes.
+              Además, me encanta cómo integran la tecnología con la moda. Los
+              accesorios, como los relojes inteligentes y los bolsos con
+              cargadores incorporados, son tanto funcionales como estilizados.
+              La atención al cliente fue excepcional, ayudándome a encontrar
+              justo lo que necesitaba. TechShop realmente entiende de moda y
+              tecnología, haciendo que la experiencia de compra sea única y
+              satisfactoria."
+            </p>
+          </div>
+
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img
+                src="assets/img/cliente-3.webp"
+                class="rounded-circle shadow-1-strong"
+                width="150"
+                height="150"
+                alt="imagen-sobre-cliente"
+              />
+            </div>
+            <h5 class="mb-3">Carlos López</h5>
+            <p class="px-xl-3">
+              "Lo que más valoro de TechShop es su compromiso con el cliente.
+              Hace unos meses compré una tablet para mi trabajo y tuve algunas
+              dudas sobre su configuración. El equipo de soporte técnico fue muy
+              amable y eficiente, resolviendo todas mis inquietudes en poco
+              tiempo. La tablet ha sido una excelente herramienta para mi
+              productividad diaria. Sin duda, TechShop es la mejor opción para
+              quienes buscamos calidad y buen servicio."
+            </p>
+          </div>
         </div>
+      </div>
     </section>
-    
-    
+
     <!--footer-->
     <footer class="bg-black p-3 text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <h4 class="text-warning">Contacto</h4>
-                    <p class="text-white">Dirección: Avenida Central 456, Barrio Innovación, San José, Costa Rica, C.P. 10101</p>
-                    <p class="text-white">Teléfono: +506 8765 4321</p>
-                    <p class="text-white">contacto@techshop.cr</p>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <h4 class="text-warning">Contacto</h4>
+            <p class="text-white">
+              Dirección: Avenida Central 456, Barrio Innovación, San José, Costa
+              Rica, C.P. 10101
+            </p>
+            <p class="text-white">Teléfono: +506 8765 4321</p>
+            <p class="text-white">contacto@techshop.cr</p>
+          </div>
 
-                <div class="col-md-6">
-                    <h4 class="text-warning">Redes Sociales</h4>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" class="btn btn-primary rounded-circle" style="border: none;"><i class="bi bi-facebook text-white"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank" class="btn btn-primary rounded-circle" style="background-color: #E4405F; border: none;"><i class="bi bi-instagram text-white"></i></a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/" target="_blank" class="btn btn-info rounded-circle" style="border: none;"><i class="bi bi-twitter text-white"></i></a></li>
-                    </ul>
-                </div>
-            </div> 
-            
+          <div class="col-md-6">
+            <h4 class="text-warning">Redes Sociales</h4>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="btn btn-primary rounded-circle"
+                  style="border: none"
+                  ><i class="bi bi-facebook text-white"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="btn btn-primary rounded-circle"
+                  style="background-color: #e4405f; border: none"
+                  ><i class="bi bi-instagram text-white"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  class="btn btn-info rounded-circle"
+                  style="border: none"
+                  ><i class="bi bi-twitter text-white"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!--script js-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <script src="./assets/js/main.js"></script>
-</body>
+  </body>
 </html>
