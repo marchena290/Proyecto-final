@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-custom:hover {
     background-color: #f9c800; 
     border-color: #f9c800;
+    color:white;
 }
 
 /* categorias */
@@ -126,11 +127,6 @@ h1, h2, h3, h4, h5, h6 {
 .card img {
     width: 100%; 
     height: auto; 
-}
-
-.list-inline a:hover {
-    filter: brightness(90%);
-    cursor: pointer;
 }
 
 .card {

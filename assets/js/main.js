@@ -65,7 +65,7 @@ async function displayCategories() {
             const categoryId = categoryMap[category] || '';
 
             return `
-                <div class="col-sm-3 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="category d-flex justify-content-center rounded-pill">
                         <a class="btn text-capitalize rounded-pill" href="./productos.html#${categoryId}" role="button">${category}</a>
                     </div>
