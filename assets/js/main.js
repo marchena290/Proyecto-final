@@ -133,9 +133,11 @@ async function displayProducts() {
         .map(
           (product) => `
                 <div class="product-card col-md-3">
+                  <a href="producto.html?id=${product.id}">
                     <img src="${product.image}" alt="${
             product.title
           }" class="product-image" loading="lazy"/>
+                  </a>
                     <h3 class="product-title">${product.title}</h3>
                     <div class="product-rating p-3">Rating: ${generateStars(
                       product.rating.rate
